@@ -20,7 +20,6 @@ public class DALTest {
         userDAO.deleteUser(13);
     }
 
-
     @Test
     public void test() {
         try {

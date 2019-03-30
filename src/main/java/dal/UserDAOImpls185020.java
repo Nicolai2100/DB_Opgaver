@@ -18,8 +18,6 @@ public class UserDAOImpls185020 implements IUserDAO {
         }
     }
 
-    //snap
-
     @Override
     public void createUser(IUserDTO user) throws DALException {
         Connection conn = null;
