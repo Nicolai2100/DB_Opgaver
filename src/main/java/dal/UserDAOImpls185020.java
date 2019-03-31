@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class UserDAOImpls185020 implements IUserDAO {
-    private Connection createConnection() throws DALException {
+    public Connection createConnection() throws DALException {
         try {
             return DriverManager.getConnection("jdbc:mysql://ec2-52-30-211-3.eu-west-1.compute.amazonaws.com/s185020",
                     "s185020", "iEFSqK2BFP60YWMPlw77I");
