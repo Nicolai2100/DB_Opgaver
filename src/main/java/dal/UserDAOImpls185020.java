@@ -47,7 +47,7 @@ public class UserDAOImpls185020 implements IUserDAO {
             try {
                 conn.close();
             } catch (SQLException e) {
-                System.out.println(e.getMessage());
+                throw new DALException(e.getMessage());
             }
         }
     }
